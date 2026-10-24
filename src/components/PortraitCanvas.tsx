@@ -81,7 +81,7 @@ export const PortraitCanvas = forwardRef<PortraitHandle, Props>(function Portrai
       <canvas
         ref={canvasRef}
         role="img"
-        aria-label="An animated portrait of Ayushi drawn entirely with text characters"
+        aria-label="An animated portrait of Aayushi drawn entirely with text characters"
       />
     </div>
   )

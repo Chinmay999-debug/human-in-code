@@ -1,6 +1,6 @@
-# For Ayushi — A Portrait in Code
+# For Aayushi — A Portrait in Code
 
-A portrait made for Ayushi, rebuilt from thousands of text characters on HTML Canvas. Characters
+A portrait made for Aayushi, rebuilt from thousands of text characters on HTML Canvas. Characters
 drift as a field, then fly in and assemble into the face.
 
 React + Vite + TypeScript, Canvas 2D. No backend, no tracking, fonts self-hosted.

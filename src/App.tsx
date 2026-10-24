@@ -74,7 +74,7 @@ export default function App() {
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
       a.href = url
-      a.download = `for-ayushi-${mode}-${DETAIL_LEVELS[detail]}.png`
+      a.download = `for-aayushi-${mode}-${DETAIL_LEVELS[detail]}.png`
       document.body.appendChild(a)
       a.click()
       a.remove()
@@ -102,8 +102,8 @@ export default function App() {
   return (
     <div className="page">
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="For Ayushi, back to top">
-          FOR <span className="brand-slash">/</span> AYUSHI
+        <a className="brand" href="#top" aria-label="For Aayushi, back to top">
+          FOR <span className="brand-slash">/</span> AAYUSHI
         </a>
       </header>
 
@@ -113,17 +113,17 @@ export default function App() {
             <p className="eyebrow">
               <span>001</span>
               <span className="rule" aria-hidden />
-              <span>Made for Ayushi</span>
+              <span>Made for Aayushi</span>
             </p>
             <h1>
-              Ayushi, <em>in code.</em>
+              Aayushi, <em>in code.</em>
             </h1>
             <p className="lede">Her face, rebuilt from thousands of characters — one for every bit of light.</p>
           </div>
           <dl className="hero-meta">
             <div>
               <dt>Dedicated to</dt>
-              <dd>Ayushi</dd>
+              <dd>Aayushi</dd>
             </div>
             <div>
               <dt>Medium</dt>
@@ -140,7 +140,7 @@ export default function App() {
           </dl>
         </section>
 
-        <section className="stage" aria-label="Live portrait of Ayushi">
+        <section className="stage" aria-label="Live portrait of Aayushi">
           <div className={`frame${formed ? ' is-formed' : ''}`}>
             <PortraitCanvas
               ref={portrait}
@@ -158,7 +158,7 @@ export default function App() {
               <span className="dot live" aria-hidden />
               LIVE CANVAS
             </div>
-            <div className="label label-tr">PORTRAIT OF AYUSHI</div>
+            <div className="label label-tr">PORTRAIT OF AAYUSHI</div>
             <div className="label label-bl tabular">
               {status && status.cols ? `${status.cols} × ${status.rows} GRID` : '— × — GRID'}
             </div>
@@ -199,7 +199,7 @@ export default function App() {
             </p>
             <h2>Pixels become personality.</h2>
             <p className="closing-lede">
-              A single photograph of Ayushi, never shown directly. It is sampled into a grid, each cell is measured
+              A single photograph of Aayushi, never shown directly. It is sampled into a grid, each cell is measured
               for how much light it holds, and that number chooses a character — sparse marks for shadow, dense ones
               for light. Thousands of them drift in from the dark and find their way to her.
             </p>
@@ -243,14 +243,14 @@ export default function App() {
             <span>Dedication</span>
           </p>
           <p className="dedication-word mono" aria-hidden>
-            {'AYUSHI'.split('').map((c, i) => (
+            {'AAYUSHI'.split('').map((c, i) => (
               <span key={i} style={{ '--i': i } as CSSProperties}>
                 {c}
               </span>
             ))}
           </p>
           <h2>
-            For Ayushi, <em>with love.</em>
+            For Aayushi, <em>with love.</em>
           </h2>
           <p className="closing-lede">
             Every glyph on this page was placed for you. Press replay whenever you like — they will always find
@@ -260,7 +260,7 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <span>Made for Ayushi</span>
+        <span>Made for Aayushi</span>
         <span className="mono">{'<canvas> · thousands of characters · one face'}</span>
         <a href="#top">Back to top ↑</a>
       </footer>

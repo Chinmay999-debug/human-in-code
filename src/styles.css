@@ -687,6 +687,7 @@ h2 {
 
 .dedication h2 em {
   font-style: normal;
+  white-space: nowrap;
   color: var(--ink-2);
 }
 

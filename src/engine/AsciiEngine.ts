@@ -213,7 +213,7 @@ export class AsciiEngine {
     o.font = `400 ${10 * s}px ${FONT_FAMILY}`
     o.fillStyle = 'rgba(255,255,255,0.5)'
     o.textBaseline = 'bottom'
-    o.fillText('FOR AYUSHI — A PORTRAIT IN CODE', 16 * s, out.height - 14 * s)
+    o.fillText('FOR AAYUSHI — A PORTRAIT IN CODE', 16 * s, out.height - 14 * s)
     o.textAlign = 'right'
     const g = this.grid
     if (g) o.fillText(`${g.cols}×${g.rows} · ${this.n} GLYPHS`, out.width - 16 * s, out.height - 14 * s)
